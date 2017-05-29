@@ -1,0 +1,47 @@
+﻿main{
+    display: block;
+}
+body
+{
+    text-wrap:normal;
+    width: 65%;
+    font: 14px verdana, sans-serif;
+}
+#wrap {
+    width: 52.5%;
+    margin: auto;
+    margin-top: 80px; 
+}
+#description{
+    color: blue;
+    font-weight: bold;
+}
+#showText{
+    color: blue;
+    font-weight: bold;
+}
+h1{
+    color: blue;
+    font-size: 50px;
+    font-weight: bold;
+    border-bottom: 1px solid #999;
+  
+}
+nav ul {
+    list-style: none;
+    padding: 10px;
+}
+
+nav li {
+    display: inline;
+    padding-right: 10px;
+}
+section {
+    float: left;
+    width: 50%;
+    min-height: 260px;
+    background: lightblue;
+    box-shadow: 1px 1px 3px #333;
+    padding: 20px;
+    margin-top: 20px;
+}

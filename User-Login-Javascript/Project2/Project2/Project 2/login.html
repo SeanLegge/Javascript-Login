@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Project 2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="script.js"></script>
+   
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="wrap">
+        <h1>SuperSite</h1>
+        <main>
+            <p>Already a registered SuperSite user? Sign in with one of the following services.</p>
+            <nav>
+                <ul>
+                    <li><img id="facebook" onmouseover="mover(this.id, 'images/facebookselected.ico')" onmouseout="    mout(this.id, 'images/facebookshadow.ico')" onmousedown="    mouseDown(this.id, 'images/facebookdepressed.ico')" onmouseup="mouseUp(this.id, 'images/facebookshadow.ico')" src="images/facebookshadow.ico" /></li>
+                    <li><img onmouseover="mover(this.id, 'images/googleselected.ico')" onmouseout="    mout(this.id, 'images/googleshadow.ico')" onmousedown="mouseDown(this.id, 'images/googledepressed.ico')" onmouseup="mouseUp(this.id, 'images/googleshadow.ico')" src="images/googleshadow.ico" id="google" /></li>
+                    <li><img onmouseover="mover(this.id, 'images/winliveselected.ico')" onmouseout="    mout(this.id, 'images/winliveshadow.ico')" onmousedown="mouseDown(this.id, 'images/winlivedepressed.ico')" onmouseup="mouseUp(this.id, 'images/winliveshadow.ico')" src="images/winliveshadow.ico" id="windows" /></li>
+                    <li><img onmouseover="mover(this.id, 'images/yahooselected.ico')" onmouseout="    mout(this.id, 'images/yahooshadow.ico')" onmousedown="mouseDown(this.id, 'images/yahoodepressed.ico')" onmouseup="mouseUp(this.id, 'images/yahooshadow.ico')" src="images/yahooshadow.ico" id="yahoo" /></li>
+                </ul>
+            </nav>
+            <p id="description">
+                Sign in with your SuperSite username and password
+                add another authentication service from the list above
+                change your SuperSite password
+            </p>
+            <p id="basicText">If you haven't already registered with SuperSite</p><br />
+            <p id="showText"><a onclick="showInput()">Register Now!</a></p><br />
+
+            <section id="hiddenInput" style="visibility:hidden">
+                <p>Username</p>
+                <input type="text" id="userName" onfocus="myFunctionFocus(this)" onblur="myFunctionBlur(this)" />
+                <p>Password</p>
+                <input type="text" id="password" onfocus="myFunctionFocus(this)" onblur="myFunctionBlur(this)" />
+                <p>Verify Password</p>
+                <input type="text" id="verify" onfocus="myFunctionFocus(this)" onblur="myFunctionBlur(this)" />
+                <p>Finish your registration by signing in with one of the services above or save your registration directly.</p><br />
+
+                <input type="button" id="save" value="Save" onclick="saveInformation()" disabled="disabled" />
+                <input type="button" id="cancel" value="Cancel" onclick="hideInput()" />
+            </section>
+        </main>
+    </div>
+</body>
+</html>

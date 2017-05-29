@@ -1,0 +1,4 @@
+C:\Users\Sean\Desktop\Schoolwork\INFO3114\Project 2\Project2\Project2\bin\Debug\Project2.exe.config
+C:\Users\Sean\Desktop\Schoolwork\INFO3114\Project 2\Project2\Project2\obj\Debug\Project2.csprojResolveAssemblyReference.cache
+C:\Users\Sean\Desktop\Schoolwork\INFO3114 OOP Javascript\Project 2\Project2\Project2\bin\Debug\Project2.exe.config
+C:\Users\Sean\Desktop\Schoolwork\INFO3114 OOP Javascript\Project 2\Project2\Project2\obj\Debug\Project2.csprojResolveAssemblyReference.cache
